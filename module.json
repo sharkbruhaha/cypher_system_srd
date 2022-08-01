@@ -1,0 +1,46 @@
+{
+   "name": "cypher_system_srd",
+   "title": "Cypher System SRD",
+   "description": "Cypher System SRD - abilties, skills, and cyphers",
+   "version": "1.0",
+   "minimumCoreVersion": "9",
+   "compatibleCoreVersion": "9",
+   "system": "cyphersystem",
+   "author": "sharkey#2946",
+   "dependencies": [
+	  {
+	     "name": "compendium-folders",
+	     "manifest": "https://github.com/earlSt1/vtt-compendium-folders/blob/master/module.json"
+      },
+	  {
+	     "name": "moar-folders",
+	     "manifest": "https://github.com/KayelGee/moar-folders/blob/master/module.json"
+      }
+   ],
+   "packs": [
+      {
+         "name": "Cyphers",
+         "label": "Cyphers",
+         "path": "packs/items-cyphers.db",
+         "entity": "Item"
+      },
+      {
+         "name": "Abilities",
+         "label": "Abilities",
+         "path": "packs/items-abilities.db",
+         "type": "Item"
+      },
+      {
+         "name": "Skills",
+         "label": "Skills",
+         "path": "packs/items-skills.db",
+         "type": "Item"
+      },
+      {
+         "name": "Cypher - RollTables",
+         "label": "Cyphers-RollTable",
+         "path": "packs/rolltables-cyphers.db",
+         "entity": "RollTable"
+      }
+   ]
+}
